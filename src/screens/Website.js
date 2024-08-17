@@ -477,16 +477,26 @@ const Website = () => {
           <p className="yellow-blue-text">Have a Question?</p>
           <p className="white-blue-text">We Answer You!</p>
         </div>
+      </div>
 
-        <div className="row-container">
-          <div className="store-buttons">
-            <img className="qrcode" src={scanner} alt="Girl" />
-            <div className="two-buttons">
-              <img className="playstore-button" src={playstore} alt="Girl" />
-              <img className="playstore-button" src={googlepay} alt="Girl" />
+      <div className="footer-container">
+        <div
+          className="sub-footer"
+        >
+          <div class="card">
+            <div class="qr-contaier">
+              <img src={scanner} alt="QR Code" class="qr-code" />
+              <div class="store-buttons">
+                <img src={playstore} alt="Play Store" class="store-img" />
+                <img src={googlepay} alt="App Store" class="store-img" />
+              </div>
             </div>
+            <div class="grey-box"></div>
           </div>
-          <div className="gray-box"></div>
+        </div>
+        <div
+          className="sub-footer"
+        >
           <div className="after-horizontal">
             <hr className="horizontalLine-1" />
             <div className="container">
@@ -539,8 +549,9 @@ const Website = () => {
             </div>
           </div>
         </div>
-
-        <div className="row-container">
+      </div>
+      <div className="footer-container">
+        <div className="sub-footer">
           <div className="addressmail-bar">
             <div className="icon-svg">
               <div className="address-div">
@@ -578,7 +589,11 @@ const Website = () => {
               </div>
             </div>
           </div>
-
+        </div>
+        <div
+          className="sub-footer"
+          style={{ background: "#3103EB", marginLeft: "20px" }}
+        >
           <div className="after-horizontal-2">
             <hr className="horizontalLine-1" />
             <div className="container">
@@ -628,166 +643,45 @@ const Website = () => {
             </div>
           </div>
         </div>
-        <div className="footer-last">
-          <p className="mail-down">
-            Copyright ©️ 2020 NTAR Private Limited. All Rights Reserved.
-          </p>
-          <div className="social-media">
-            <div className="insta">
-              <p style={{ margin: "0px" }}>
-                INSTAGRAM
-                <img className="explorearrow" src={sideImage} alt="Girl" />
-              </p>
-            </div>
-
-            <div className="insta">
-              <p style={{ margin: "0px" }}>
-                FACEBOOK
-                <img className="explorearrow" src={sideImage} alt="Girl" />
-              </p>
-            </div>
-
-            <div className="insta">
-              <p style={{ margin: "0px" }}>
-                TWITTER
-                <img className="explorearrow" src={sideImage} alt="Girl" />
-              </p>
-            </div>
-
-            <div className="insta">
-              <p style={{ margin: "0px" }}>
-                LINKEDIN
-                <img className="explorearrow" src={sideImage} alt="Girl" />
-              </p>
-            </div>
-
-            <div className="insta">
-              <p style={{ margin: "0px" }}>
-                YOUTUBE
-                <img className="explorearrow" src={sideImage} alt="Girl" />
-              </p>
-            </div>
-          </div>
-        </div>
       </div>
+      <div className="footer-last" style={{ background: "#3103EB" }}>
+        <p className="mail-down">
+          Copyright ©️ 2020 NTAR Private Limited. All Rights Reserved.
+        </p>
+        <div className="social-media">
+          <div className="insta">
+            <p style={{ margin: "0px" }}>
+              INSTAGRAM
+              <img className="explorearrow" src={sideImage} alt="Girl" />
+            </p>
+          </div>
 
-      <div className="footer-container">
-        <div className="sub-footer">
-          <img className="qrcode" src={scanner} alt="Girl" />
-          <div className="two-buttons">
-            <img className="playstore-button" src={playstore} alt="Girl" />
-            <img className="playstore-button" src={googlepay} alt="Girl" />
+          <div className="insta">
+            <p style={{ margin: "0px" }}>
+              FACEBOOK
+              <img className="explorearrow" src={sideImage} alt="Girl" />
+            </p>
           </div>
-        </div>
-        <div className="sub-footer" style={{ background: "blue" }}>
-          <div className="after-horizontal">
-            <hr className="horizontalLine-1" />
-            <div className="container">
-              <div className="header">
-                <div className="category">
-                  <p className="header-text">INSIDE</p>
-                  <div className="subcategories">
-                    <div className="subcategory-container">
-                      <p className="subcategory">NTAR Pay</p>
-                      <div className="pots-comingsoon-button">
-                        <p className="subcategory">NTAR Pots</p>
-                        <div className="comingsoon-section-footer">
-                          <p className="comingsoon-text-small">Coming soon</p>
-                        </div>
-                      </div>
-                      <div className="pots-comingsoon-button">
-                        <p className="subcategory">NTAR Club</p>
-                        <div className="comingsoon-section-footer">
-                          <p className="comingsoon-text-small">Coming soon</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="category">
-                  <p className="header-text">COMPANY</p>
-                  <div className="subcategories">
-                    <div className="subcategory-container">
-                      <p className="subcategory">Why NTAR</p>
-                      <p className="subcategory">About US</p>
-                      <div className="pots-comingsoon-button">
-                        <p className="subcategory">Careers</p>
-                        <div className="comingsoon-section-footer">
-                          <p className="comingsoon-text-small">We are Hiring</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="category">
-                  <p className="header-text">EXPLORE</p>
-                  <div className="subcategories">
-                    <div className="subcategory-container">
-                      <p className="subcategory">Deals</p>
-                      <p className="subcategory">Stories</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="footer-container">
-        <div className="sub-footer">
-          <img className="qrcode" src={scanner} alt="Girl" />
-          <div className="two-buttons">
-            <img className="playstore-button" src={playstore} alt="Girl" />
-            <img className="playstore-button" src={googlepay} alt="Girl" />
-          </div>
-        </div>
-        <div className="sub-footer" style={{ background: "blue" }}>
-          <div className="after-horizontal-2">
-            <hr className="horizontalLine-1" />
 
-            <div className="header2">
-              <div className="category-2">
-                <p style={{ textWrap: "nowrap" }} className="header-text">
-                  GET IN TOUCH
-                </p>
-                <div className="subcategories">
-                  <div className="subcategory-container">
-                    <p className="subcategory">Contact Us</p>
-                    <p className="subcategory">Complaint</p>
-                  </div>
-                </div>
-              </div>
-              <div className="category-3">
-                <p className="header-text">IN SIGHTS</p>
-                <div className="subcategories">
-                  <div className="subcategory-container">
-                    <div className="pots-comingsoon-button">
-                      <p className="subcategory">Guide</p>
-                      <div className="comingsoon-section-footer">
-                        <p className="comingsoon-text-small">Coming soon</p>
-                      </div>
-                    </div>
-                    <p className="subcategory">FAQ</p>
-                    <div className="pots-comingsoon-button">
-                      <p className="subcategory">Community</p>
-                      <div className="comingsoon-section-footer">
-                        <p className="comingsoon-text-small">Coming soon</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="category-4">
-                <p className="header-text">LEGAL</p>
-                <div className="subcategories">
-                  <div className="subcategory-container">
-                    <p className="subcategory">Privacy Policy</p>
-                    <p className="subcategory">Terms & Conditions</p>
-                    <p className="subcategory">Cookie Policy</p>
-                  </div>
-                </div>
-              </div>
-            </div>
+          <div className="insta">
+            <p style={{ margin: "0px" }}>
+              TWITTER
+              <img className="explorearrow" src={sideImage} alt="Girl" />
+            </p>
+          </div>
+
+          <div className="insta">
+            <p style={{ margin: "0px" }}>
+              LINKEDIN
+              <img className="explorearrow" src={sideImage} alt="Girl" />
+            </p>
+          </div>
+
+          <div className="insta">
+            <p style={{ margin: "0px" }}>
+              YOUTUBE
+              <img className="explorearrow" src={sideImage} alt="Girl" />
+            </p>
           </div>
         </div>
       </div>

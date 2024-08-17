@@ -391,6 +391,19 @@
   display: block;
   position: relative;
 } */
+.card {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.grey-box {
+  width: 300px;
+  height: 200px;
+  background-color: #ccc;
+  margin-right: 20px;
+  border-radius: 20px;
+}
 
 .comingsoon-section {
   background-color: #f9e400;
@@ -764,28 +777,61 @@
 
 .container {
   display: flex;
-  flex-direction: column;
+  width: 100%;
+  justify-content: center;
   align-items: center;
+  margin-left: 50px;
 }
 
 .header {
   display: grid;
-  grid-template-columns: repeat(3, 50%);
+  width: 100%;
+  grid-template-columns: repeat(3, 1fr);
   gap: 10px;
+}
+.qrContainer {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  background-color: red;
 }
 
 .category {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  /* width: 30%; */
+}
+
+.qr-code {
+  width: 200px;
+  height: 100px;
+  margin-bottom: 10px;
+  object-fit: contain;
+}
+
+.store-buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.qr-contaier {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.store-img {
+  width: 120px;
+  height: auto;
+  object-fit: contain;
 }
 
 .category-2 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin-right: 90px;
+  /* margin-right: 90px; */
   /* width: 35%; */
 }
 
@@ -830,7 +876,6 @@
   border-top: 1px solid #ccc;
   margin-top: 30px;
   margin-bottom: 5px;
-  margin-left: 5%;
   font-family: "Youth";
 }
 
@@ -845,8 +890,6 @@
 .after-horizontal-2 {
   display: flex;
   justify-content: flex-start;
-  /* align-items: center; */
-  /* margin-left: 8%; */
   flex-direction: column;
 }
 .white-headings-privacy {
@@ -876,14 +919,13 @@
 .address {
   color: white;
   width: 78%;
-  font-size: 14px;
+  font-size: 16px;
   font-family: "Youth";
 }
 
 .mail-down {
   color: white;
-  margin-left: 8%;
-  font-size: 14px;
+  font-size: 16px;
   font-family: "Youth";
 }
 
@@ -894,6 +936,8 @@
 
 .header2 {
   display: grid;
+  width: 100%;
+  /* background-color: #f9e400; */
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
 }
@@ -1007,17 +1051,19 @@
   padding: 0px;
 }
 .footer-container {
-  /* background: red; */
-  /* height: 205px; */
+  background: #3103eb;
   display: flex;
   flex-direction: row;
   align-items: center;
   width: 100vw;
+  background: "#3103EB";
 }
 .sub-footer {
   display: flex;
+  flex-direction: row;
   flex: 1;
-  background: green;
+  background: #3103eb;
+  margin-left: 20px;
 }
 
 @media (max-width: 768px) {
